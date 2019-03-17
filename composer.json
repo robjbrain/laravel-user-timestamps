@@ -1,0 +1,25 @@
+{
+    "name": "robjbrain/laravel-user-timestamps",
+    "description": "Drop in replacements for UserTimestamps and SoftDeletes to also store the authenticated user id.",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "timestamps",
+        "soft delete"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rob Brain",
+            "email": "robjbrain@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Robjbrain\\LaravelUserTimestamps\\": "src"
+        }
+    }
+}
