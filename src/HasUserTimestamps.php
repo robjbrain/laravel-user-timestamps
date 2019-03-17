@@ -14,7 +14,7 @@ trait HasUserTimestamps
      *
      * @var bool
      */
-    public $timestamps = true;
+    public $timestamps = false;
 
     /**
      * Indicates if the model should be timestamped with a user id
