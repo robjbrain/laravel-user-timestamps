@@ -52,7 +52,7 @@ trait HasUserTimestamps
      * @param  Model $user
      * @return void
      */
-    protected function updateTimestamps(Model $user = null)
+    public function updateTimestamps(Model $user = null)
     {
         $time = $this->freshTimestamp();
 
